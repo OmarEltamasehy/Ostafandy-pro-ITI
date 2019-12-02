@@ -18,6 +18,9 @@ body {
 	-moz-align-items: center;
 	-webkit-align-items: center;
 	background-image: url("background.png") ; 
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
 	/* background-image: -moz-linear-gradient( 136deg, rgb(253, 135, 0) 0%, rgb(253, 135, 0) 100%); 
     background-image: -webkit-linear-gradient( 136deg, rgb(253, 135, 0) 0%, rgb(253, 135, 0) 100%); 
     background-image: -ms-linear-gradient( 136deg, rgb(253, 135, 0) 0%, rgb(253, 135, 0) 100%); */
