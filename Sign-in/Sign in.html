@@ -16,7 +16,7 @@
 		<div class="form-v10-content">
 			<form class="form-detail" action="#" method="post" id="myform">
 				<div class="form-left">
-					<h2>General Information | بيانات عامة</h2>
+					<h2>General Infomation | بيانات عامة</h2>
 					<!-- <div class="form-row">
 						<select name="title">
 						    <option class="option" value="title">Title</option>
@@ -37,6 +37,12 @@
 						</div>
 					</div>
 					<div class="form-row">
+						<input type="password" name="psw" class="street" id="psw" placeholder="Password | أدخل كلمة المرور" pattern="(?=.*\d).{8,}" title="يجب ان تحتوي كلمة السر على ثمانية ارقام على الاقل" required>
+					</div>
+					<div class="form-row">
+						<input type="password" name="psw" class="street" id="psw" placeholder="Rewrite Password | أعد كتابة كلمة المرور" pattern="(?=.*\d).{8,}" title="يجب ان تحتوي كلمة السر على ثمانية ارقام على الاقل" required>
+					</div>
+					<div class="form-row">
 						<select name="position">
 						    <!-- <option value="Location">City</option> -->
 						    <option value="director">Mansourah</option>
@@ -50,13 +56,13 @@
 					<div class="form-row">
 						<input type="text" name="street" class="street" id="street" placeholder="Address | العنوان" required>
 					</div>
-					<div class="form-group">
-						<!-- <div class="form-row form-row-1">
-							<input type="text" name="code" class="code" id="code" placeholder="Code +" required>
-						</div> -->
+					<!-- <div class="form-group">
 						<div class="form-row form-row-1">
-							<input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number | رقم الهاتف" required>
+							<input type="text" name="code" class="code" id="code" placeholder="Code +" required>
 						</div>
+					</div> -->
+					<div class="form-row">
+						<input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number | رقم الهاتف" required>
 					</div>
 					<div class="form-row">
 						<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Your Email | الإيميل إن وجد">
@@ -90,17 +96,17 @@
 					<!-- <div class="form-row">
 						<input type="text" name="additional" class="additional" id="additional" placeholder="Additional Information" required>
 					</div> -->
-					<div class="form-group">
-						<div class="form-row form-row-1">
-							<input type="text" name="phone" class="phone" id="phone" placeholder="رقم هاتف اضافي" required>
-						</div>
+					<!-- <div class="form-group">
+					</div> -->
+					<div class="form-row">
+						<input type="text" name="phone" class="phone" id="phone" placeholder="Additional Phone Number | رقم هاتف إضافي" required>
 					</div>
 					<div class="form-row form-row-4">
 						<select name="employees">
 							<option value="employees">من أين سمعت عن أوسطفندي</option>
-							<option value="employees">Social media | مواقع التواصل </option>
-							<option value="trainee">Relatives | دائرة المعارف</option>
-							<option value="colleague">Flyer | إعلان</option>
+							<option value="employees">Social media | مواقع التواصل الاجتماعي</option>
+							<option value="trainee">Relatives | سمعت من أحد معارفي</option>
+							<option value="colleague">Flyer or Ads | قرأت اعلان عن الشركة</option>
 						</select>
 						<span class="select-btn">
 							  <i class="zmdi zmdi-chevron-down"></i>
