@@ -52,48 +52,65 @@
 
 
 
+<!-- start Our signup -->
 
-<!-- start Our login  -->
-
-<div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="wrapper fadeInDown">
-              <div id="formContent">
-                <!-- Tabs Titles -->
-            
-                <!-- Icon -->
-                <img src="images/logo3.png" id="icon" alt="User Icon" height="200" width="150"/>
-            
-                <!-- <div id="formFooter">
-                    <img src="images/logo3.png" id="icon" alt="User Icon" />
-                </div> -->
-                <!-- Login Form -->
-                <form>
-                  <input type="text" id="login" class="fadeIn second" name="login" placeholder=" رقم الهاتف ">
-                  <input type="text" id="password" class="fadeIn third" name="login" placeholder="كلمة المرور">
-                  <input type="submit" class="fadeIn fourth" value="تسجيل دخول">
-                </form>
-            
-
-
-                <!-- Remind Passowrd -->
-                <div id="formFooter">
-                  <a class="" href="#" style="margin-left:40px">نسيت كلمة السرّ ؟</a>
-                  <a class="" href="client-register.html">تسجيل مستخدم جديد</a>
-
-                </div>
-            
-              </div>
-            </div>
+<div class="col-lg-12 col-md-12 col-sm-12">
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+    
+        <!-- Icon -->
+        <img src="images/logo3.png" id="icon" alt="User Icon" height="200" width="150"/>
+    
+        <form>
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder="  الإسم بالكامل">
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder="   رقم الهاتف">
+  
+  
+          
+          
+          <input type="text" id="password" class="fadeIn third" name="login" placeholder="كلمة المرور">
+          <input type="password" id="login" name="login" class="fadeIn second" 
+          placeholder="أعد كتابة كلمة المرور" 
+          pattern="(?=.*\d).{8,}" 
+          title="يجب ان تحتوي كلمة السر على ثمانية ارقام على الاقل" required>
+  
+  
+          <select id="login" class="fadeIn second" name="login">
+              <option value="Location">المدينة</option>
+              <option value="director">المنصورة</option>
+              <option value="manager">الجيزة</option>
+          </select>
+  
+  
+          <select id="login" class="fadeIn second" name="login">
+              <option value="Location">نوع المهنه</option>
+              <option value="director">سباكه</option>
+              <option value="manager">نجارة</option>
+              <option value="Location">كهرباء </option>
+              <option value="director">أجهزة كهربائية</option>
+              <option value="manager">تشطيبات وديكورات</option>
+              <option value="Location"> نقاشة</option>
+              <option value="director">ألوميتال</option>
+              <option value="manager">حدادة</option>
+              <option value="Location">مبلط </option>
+              <option value="director">تكييف وتبريد</option>
+              <option value="manager">تركيب ستالايت وكاميرات</option>
+          </select>
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder=" بيانات عن المهنة تفصيلياً ">
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder=" عدد سنين الخبرة ">
+  
+          <input type="submit" class="fadeIn fourth" value=" إنشاء مستخدم">
+        </form>
+    
       </div>
-
     </div>
   </div>
-</div>
-
-<!-- End Our login -->
-
+  <!-- end Our signup -->
+  
+  
+      
+        
 
 
         
@@ -112,7 +129,8 @@
 
 
 
- 
+   
+
 
 
 

@@ -3,7 +3,7 @@
 body {
 
     padding-top:70px;
-    overflow:hidden;
+    /* overflow:hidden; */
     /* font-family: 'DroidArabicKufiRegular'; */
     /* font-family: 'DroidArabicKufi';
 
@@ -13,6 +13,7 @@ body {
     font-family: 'Droid Arabic Kufi', serif;
 
     /* background-color: rgb(238, 102, 26); */
+    /* overflow: hidden; */
 
 
 }
@@ -507,7 +508,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column; 
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: right; 
     width: 100%;
     min-height: 100%;
     padding: 20px;
