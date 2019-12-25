@@ -8,7 +8,7 @@ Ostafandy is a [Django](https://www.djangoproject.com/)-Based Web Application pr
 
 <p align="center">
   <a href="https://nodejs.org/">
-    <img alt="system architecture" src="https://github.com/OmarEltamasehy/Ostafandy-pro-ITI/blob/master/flow.jpg" width="550" height="200"/>
+    <img alt="Node.js" src="/home/hakeem/Desktop/SystemArch.png" width="550" height="200"/>
   </a>
 </p>
 
